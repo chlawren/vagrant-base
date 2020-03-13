@@ -12,8 +12,3 @@
 172.35.1.105	     master-02.home	      master-02
 
 172.35.1.106	     win-01.home	      win-01
-
-172.36.1.100         peadm-01.pe	      peadm-01		puppetmaster.pe       puppetmaster    puppet.pe        puppet
-
-172.36.1.101         peadm-02.pe            peadm-02
-172.36.1.102         peadm-03.pe            peadm-03
