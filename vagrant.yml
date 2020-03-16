@@ -24,7 +24,7 @@ nodes:
     synced_folders:
       - src: 'files'
         dst: '/var/tmp/files'
-    provision: 'bin/build_node.sh'
+    provision: 'bin/build_nonode.sh'
   - name: master-01
     hostname: master-01
     box: geerlingguy/centos7
@@ -41,7 +41,7 @@ nodes:
     synced_folders:
       - src: 'files'
         dst: '/var/tmp/files'
-    provision: 'bin/build_node.sh'
+    provision: 'bin/build_nonode.sh'
   - name: master-02
     hostname: master-02
     box: geerlingguy/centos7
@@ -58,7 +58,7 @@ nodes:
     synced_folders:
       - src: 'files'
         dst: '/var/tmp/files'
-    provision: 'bin/build_node.sh'
+    provision: 'bin/build_nonode.sh'
   - name: controller-01
     hostname: controller-01
     box: geerlingguy/centos7
@@ -75,7 +75,7 @@ nodes:
     synced_folders:
       - src: 'files'
         dst: '/var/tmp/files'
-    provision: 'bin/build_node.sh'
+    provision: 'bin/build_nonode.sh'
   - name: agent-01
     hostname: agent-01
     box: geerlingguy/centos7
@@ -92,7 +92,7 @@ nodes:
     synced_folders:
       - src: 'files'
         dst: '/var/tmp/files'
-    provision: 'bin/build_node.sh'
+    provision: 'bin/build_nonode.sh'
   - name: agent-02
     hostname: agent-02
     box: geerlingguy/centos7
